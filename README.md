@@ -21,8 +21,15 @@ This project analyzes employee feedback collected via a SharePoint list integrat
   - 🔄 Handled inconsistent data formats (e.g., “4 – Likely” ➡️ “4”)
   - 🚫 Addressed missing values with "No response" or blanks
   - 🧽 Standardized text fields & normalized rating scales
+ 
+## 🛠️ Data Modeling & Visualization
+ - Created calculated columns using DAX to categorize responses and improve analysis.
 
----
+   - Dealt with data cleaning, handling missing values, and standardizing inputs.
+
+ - Used these enhancements to build visuals like word clouds and bar charts for clear insights.
+
+
 
 ## 🔍 Insights  
 - 📈 Identified key trends such as:
