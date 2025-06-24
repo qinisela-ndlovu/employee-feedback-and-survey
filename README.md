@@ -24,6 +24,7 @@ This project analyzes employee feedback collected via a SharePoint list integrat
  
 ## 🛠️ Data Modeling & Visualization
  - Created calculated columns using DAX to categorize responses and improve analysis.
+ see:https://github.com/qinisela-ndlovu/employee-feedback-and-survey/blob/main/Snap3.png and other Snaps
 
    - Dealt with data cleaning, handling missing values, and standardizing inputs.
 
