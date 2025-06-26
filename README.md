@@ -1,56 +1,56 @@
-# 📊 Employee Feedback Data Analysis Project
+✅ Employee Feedback Data Analysis Project
 
-## 🧩 Overview  
-This project analyzes employee feedback collected via a SharePoint list integrated with PowerApps. The goal is to gain insights into:
+🧩 Overview
 
-- ✅ **Employee satisfaction**  
-- 🤖 **System friendliness**  
-- 🔁 **Likelihood to continue using the product/service**  
-- 🛠️ **Common issues and feature requests**
-
----
-
-## 📁 Data Source  
-- **Origin**: SharePoint list capturing employee feedback submissions.
-
----
-
-## 🧹 Data Preparation  
-- Exported raw data from SharePoint to CSV.  
-- Cleaned data using **Power BI Power Query Editor**:
-  - 🔄 Handled inconsistent data formats (e.g., “4 – Likely” ➡️ “4”)
-  - 🚫 Addressed missing values with "No response" or blanks
-  - 🧽 Standardized text fields & normalized rating scales
- 
-## 🛠️ Data Modeling & Visualization
- - Created calculated columns using DAX to categorize responses and improve analysis.
- see:https://github.com/qinisela-ndlovu/employee-feedback-and-survey/blob/main/Snap3.png and other Snaps
-
-   - Dealt with data cleaning, handling missing values, and standardizing inputs.
-
- - Used these enhancements to build visuals like word clouds and bar charts for clear insights.
+In this project the employee feedback is being collated in a SharePoint list used with PowerApps. We aim to obtain insights into:
 
 
+✅ Employee satisfaction
 
-## 🔍 Insights  
-- 📈 Identified key trends such as:
-  - Most common issue categories
-  - Overall satisfaction levels
-  - Correlations between friendliness and likelihood to continue  
-- ⚠️ Note: Analysis has **limitations** due to:
-  - Small sample size (new app)
-  - Anonymous responses
+🤖 System friendliness
 
----
+-🔁 Interest in continued use of the product/service
 
-## 🛠️ How to Use This Repository  
-- Open the **Power BI `.pbix`** file for interactive exploration  
-- Reference the **CSV** file for raw data  
+🛠️ Frequently asked questions and feature requests
 
----
 
-## 🔮 Future Work  
-1. 🔗 Automate data import from SharePoint via Power BI connector  
-2. 🧠 Enhance feature request analysis using **text mining/NLP**  
-3. 📊 Expand dataset for deeper, more reliable insights  
-4. 🧭 Add filtering & drill-down capabilities in the Power BI dashboard  
+📁 Data Source
+
+Source:** SharePoint list which records employee feedback submissions.
+
+🧹 Data Preparation
+
+SP Data exported as raw data to CSV.
+
+Clean the data with Power BI Power Query Editor:
+
+🔄 Replaced inconsistent data formatting (e.g. “4 – Likely” ➡️ “4”)
+
+🚫 Filled missing data with "No response" 
+
+🧽 Unified text fields & Harmonized rating scales
+
+🛠️ Data Modeling / Visualisation
+
+-Developed DAX calculated columns to segment the responses and for better analysis.
+- Handled missing values, cleaned data, and standardized inputs.
+- Utilizing these improvements, clear insights were obtained by creating visuals such as word clouds and bar charts.
+
+## 🔍 Perspectives 
+  - 📈 Recognized important patterns like: - Most prevalent problem types
+  -Overall levels of satisfaction
+  -Relationships between friendliness and propensity to stick around 
+  - ⚠️ Note: The analysis has **limitations** because
+  -The sample size is small (new app).
+  -Anonymized answers
+
+
+## 🙠️ Using This Repository: 
+- Open the **Power BI `.pbix`** file to explore interactively;
+- Refer to the **CSV** file to view raw data  
+
+## Future Projects  
+1. Use a Power BI connector to automate the import of data from SharePoint.  
+2. Improve feature request analysis with **text mining/NLP**  
+3. 📊 Extend dataset for more thorough and trustworthy insights  
+4. Enhance the Power BI dashboard with drill-down and filtering features.
